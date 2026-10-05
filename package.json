@@ -1,0 +1,8 @@
+{
+  "name": "creator-semantic-search",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/run.ts", "test": "tsx src/decision.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"openai": "^4.0.0", "tsx": "^4.0.0", "zod": "^3.23.0"},
+  "devDependencies": {"typescript": "^5.0.0"}
+}
